@@ -1,0 +1,48 @@
+﻿body {
+background-color:aquamarine;
+}
+
+#main-content {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(173, 216, 230, 0.8), rgba(173, 216, 230, 0.8)),url('../images/balance.png');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+}
+
+.text-center h4 {
+    margin-top: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 15px;
+/**/}
+    .table th {
+        background-color: rosybrown;
+    }
+    .table th,
+    .table td {
+        padding: 12px;
+        text-align: center;
+    }
+h4 {
+    font-size: calc(1.275rem + 0.3vw);
+    color: darkblue;
+    font-style: oblique;
+}
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 767px) {
+    .table th,
+    .table td {
+        padding: 8px;
+    }
+}

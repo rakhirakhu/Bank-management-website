@@ -1,0 +1,119 @@
+﻿body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ /* Use min-height to ensure the body takes at least the full height of the viewport */
+}
+
+.header-box {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 19vh;
+    margin-left: 12%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 4%;
+}
+
+header {
+    background-color: #004e96;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+    .logo img {
+        height: 15%;
+        width: 31%; /* Set a maximum width for the logo image */
+        margin-top: 6%;
+        margin-left: 4%;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width:22rem;
+}
+
+    nav ul li {
+        margin-right: 39px;
+        margin-top: 8%;
+    }
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav ol li.special {
+    display: block;
+    margin-right: 8px;
+    background-color: orange; /* Yellow-colored box */
+    padding: 5px 10px;
+    border-radius: 8px;
+    align-items: center;
+    height: 5vh;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 9%;
+}
+
+nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li.special:nth-child(n+5) {
+    clear: both;
+}
+
+#main-content {
+    background-color:mintcream;
+    flex: 1; /* Allow main content to grow and take remaining space */
+    overflow-y: auto;
+   /* Enable vertical scrolling if content overflows */
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.logos {
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+    .logos img {
+        height: 37px;
+        width: 37px; /* Set a maximum width for the logo image */
+        margin: 0 20px;
+    }
+
+footer h5 {
+    border: 0;
+    margin-right: 8%;
+}

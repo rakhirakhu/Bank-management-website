@@ -1,0 +1,37 @@
+﻿#main-contents {
+    background: linear-gradient(rgba(173, 216, 230, 0.5), rgba(173, 216, 230, 0.5)), url('../images/backgroundbank.png');
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.login-box {
+    width: 30%;
+    height: 30vh;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+/**/    border: 1px solid #ccc;
+    border-radius: 8%;
+    background-image:radial-gradient(gold,yellow,orange);
+/*    margin-top: 7%;
+*/    position:relative;
+}
+
+    .login-box h4 {
+        text-align: center;
+        color: blue;
+    }
+ 
+
+
+#eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+form{
+    padding-top:100px;
+}

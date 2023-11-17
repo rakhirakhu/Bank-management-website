@@ -1,0 +1,86 @@
+﻿.border-right {
+    border-right: 2px solid ;
+    color:white;
+    padding-right: 15px; }
+.row {
+    background-color: #004e96;
+}
+ h4{
+    color:white;
+
+}
+
+.marquee-box {
+    width: 40%;
+    height:40vh;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    margin-right:2%;
+    background-color:white;
+   
+}
+
+/* Style for the marquee */
+.marquee {
+    width: 90%;
+    position: absolute;
+    top: 0;
+  
+    overflow: hidden;
+    animation: marquee 10s linear infinite;
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+
+}
+
+/* Style for the heading and paragraph inside the marquee */
+h2, p {
+    display: block;
+    margin: 10px 0;
+}
+
+.image-slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-slider img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.slider-container {
+    display: flex;
+    overflow: hidden;
+
+}
+body {
+    background-color: darkcyan;
+}
+.image-about {
+    background: linear-gradient(rgba(173, 216, 230, 0.5), rgba(173, 216, 230, 0.5)), url('~/images/indexback.jpg');
+    background-size: cover;
+    height: auto; /* Set the height as needed */
+    position: relative;
+}
+
+    .image-about img {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Ensure the image covers the container */
+        opacity: 1; /* Set the opacity to fully visible */
+    }

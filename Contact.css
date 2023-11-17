@@ -1,0 +1,41 @@
+﻿.img-im img {
+    width: 100%;
+    height: auto;
+}
+
+.con-box {
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 65px;
+    overflow: hidden;
+    position: relative;
+background-image:linear-gradient(lightblue,grey);
+
+}
+
+    .con-box h4 {
+        text-align: center;
+        color: blue;
+    }
+#main-content {
+   background-image: url('../images/indexback.jpg');
+   width:100%;
+   height:auto;
+}
+.border-right {
+    border-right: 2px solid;
+    color: white;
+    padding-right: 15px;
+}
+
+.row {
+    background-color: #004e96;
+}
+
+h4 {
+    color: white;
+
+}

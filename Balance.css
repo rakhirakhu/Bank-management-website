@@ -1,0 +1,15 @@
+﻿#main-content {
+    background-image: url('../../images/backgroundbank.png');
+}
+
+.table {
+    margin-top: 8%;
+    border: thick;
+}
+
+    .table th {
+        color: darkblue;
+        font-size: larger;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }

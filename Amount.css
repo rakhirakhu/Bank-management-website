@@ -1,0 +1,44 @@
+﻿#main-content {
+    background-image: url('../images/amount.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   min-height:100vh;
+}
+
+.form-horizontal {
+    width: 26%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    background-image:linear-gradient(lightgreen,green,darkgreen);
+}
+
+    .form-horizontal h4 {
+        text-align: center;
+        color: blue;
+    }
+    .col-md-2{
+        width:10rem;
+    }
+
+
+#gender-container .radio-inline {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+.form-group{
+    color:white;
+}
+.btn {
+    --bs-btn-border-color: white;
+    --bs-btn-color: white;
+}
+form {
+    display: block;
+    margin-top: 7em;
+}

@@ -1,0 +1,30 @@
+﻿#main-content {
+    background-image: url('../../images/backgroundbank.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.form-horizontal {
+    width: 28%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+    .form-horizontal h4 {
+        text-align: center;
+        color: blue;
+    }
+
+
+#gender-container .radio-inline {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin as needed */
+}

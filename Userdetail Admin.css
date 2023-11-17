@@ -1,0 +1,57 @@
+﻿#main-content {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(173, 216, 230, 0.8), rgba(173, 216, 230, 0.8)),url('../images/balance.png');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    
+}
+
+.container {
+    margin-top: 30px;
+
+}
+
+h2 {
+    font-size: calc(1.275rem + 0.3vw);
+    color: darkblue;
+    font-style: oblique;
+    text-align: center;
+}
+
+.table {
+    background-color: lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table thead {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+    .table-hover tbody tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+        color: #ffffff;
+    }
+
+        .btn-delete:hover {
+            background-color: #c82333;
+        }
+.inline {
+    display: inline;
+}   

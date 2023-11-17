@@ -1,0 +1,39 @@
+﻿#main-content {
+    background: linear-gradient(rgba(173, 216, 230, 0.5), rgba(173, 216, 230, 0.5)), url('../images/backgroundbank.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.form-horizontal {
+    width: 27%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8%;
+    background-color: transparent;
+    /*    margin-top: 7%;
+*/ position: relative;
+    background-image: linear-gradient(lightblue,grey);
+}
+
+    .form-horizontal h4 {
+        text-align: center;
+        color: blue;
+    }
+.col-md-2{
+    width:10rem;
+}
+form {
+    display: block;
+    margin-top: 7em;
+}
+
+
+
+.form-group .col-md-10 div {
+    display: inline-block;
+    margin-right: 10px;
+    text-align:center;/* Adjust the margin as needed */
+}

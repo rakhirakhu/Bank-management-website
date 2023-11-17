@@ -1,0 +1,11 @@
+﻿h2 {
+    text-align: center;
+    color:blue;
+    font-family:Arial;
+
+}
+#main-content {
+    background-image: url('../images/backgroundbank.png');
+    width: 100%;
+    height: auto;
+}
